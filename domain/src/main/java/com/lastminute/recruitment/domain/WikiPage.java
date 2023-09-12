@@ -31,4 +31,11 @@ public class WikiPage {
     public String getContent() {
         return content;
     }
+
+    @Override
+    public String toString() {
+        return "WikiPage{" +
+                "selfLink='" + selfLink + '\'' +
+                '}';
+    }
 }
